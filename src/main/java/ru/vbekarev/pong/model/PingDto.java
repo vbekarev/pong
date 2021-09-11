@@ -1,6 +1,8 @@
 package ru.vbekarev.pong.model;
 
-public class PingDto {
+import java.io.Serializable;
+
+public class PingDto implements Serializable {
     private String message;
 
     public PingDto(String message) {
