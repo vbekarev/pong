@@ -8,6 +8,6 @@ import ru.vbekarev.pong.model.PingDto;
 public class PongController {
     @GetMapping("/pong")
     public PingDto pong() {
-        return new PingDto("ping");
+        return new PingDto("pong");
     }
 }
